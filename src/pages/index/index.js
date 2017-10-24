@@ -150,17 +150,17 @@ function buttonHandler() {
 
 function gladiator_1dead() {
     appRoot.html(
-        '<button2 onclick="document.location.reload()">' +
+        '<button onclick="document.location.reload()">' +
             gladiator_1.name +
-            ', Loses! </br> Restart </button2>'
+            ', Loses! </br> Restart </button>'
     );
 }
 
 function gladiator_2dead() {
     appRoot.html(
-        '<button2 onclick="document.location.reload()">' +
+        '<button onclick="document.location.reload()">' +
             gladiator_2.name +
-            ',Loses! </br>Restart</button2>'
+            ',Loses! </br>Restart</button>'
     );
 }
 
